@@ -68,5 +68,10 @@ namespace DVLD.Controls
         {
 
         }
+
+        private void ctrlUserCard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

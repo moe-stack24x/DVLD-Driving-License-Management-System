@@ -55,6 +55,7 @@ namespace DVLD.Controls.ApplicationControls
             lblDate.Text = clsFormat.DateToShort(_Application.ApplicationDate);
             lblStatusDate.Text = clsFormat.DateToShort(_Application.LastStatusDate);
             lblCreatedByUser.Text = _Application.CreatedByUserInfo.UserName;
+
         }
 
         public void ResetApplicationInfo()

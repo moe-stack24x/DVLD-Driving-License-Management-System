@@ -58,7 +58,7 @@ namespace DVLD.User
             if (string.IsNullOrEmpty(txtCurrentPassword.Text.Trim()))
             {
                 e.Cancel = true;
-                errorProvider1.SetError(txtCurrentPassword, "Username cannot be blank");
+                errorProvider1.SetError(txtCurrentPassword, "field cannot be blank");
                 return;
             }
             else

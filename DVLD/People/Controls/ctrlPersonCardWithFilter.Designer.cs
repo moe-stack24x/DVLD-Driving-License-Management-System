@@ -58,6 +58,7 @@
             this.gbFilters.TabIndex = 16;
             this.gbFilters.TabStop = false;
             this.gbFilters.Text = "Filter";
+            this.gbFilters.Enter += new System.EventHandler(this.gbFilters_Enter);
             // 
             // btnAddNewPerson
             // 

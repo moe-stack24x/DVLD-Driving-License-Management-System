@@ -82,7 +82,7 @@ namespace DVLD.Controls
             FindNow();
 
         }
-
+        
         private void FindNow()
         {
             switch (cbFilterBy.Text)
@@ -188,6 +188,11 @@ namespace DVLD.Controls
         private void ctrlPersonCard1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void gbFilters_Enter(object sender, EventArgs e)
+        {
+            
         }
     }
 }
