@@ -84,6 +84,21 @@ This project helped me gain practical experience in:
 
 ---
 
+🗄️ Database
+
+The project uses Microsoft SQL Server.
+
+The database scripts are available in the "DataBase" folder:
+
+- "DrivingLicenseDB.sql"
+- "DrivingLicenseDB_Full.sql"
+
+The full database script contains the database objects and data, provided that the export was configured with Schema and data.
+
+You can use the SQL scripts to set up the database in SQL Server Management Studio (SSMS).
+
+---
+
 📸 Screenshots
 
 Screenshots of the application will be added here.
@@ -93,16 +108,18 @@ Screenshots of the application will be added here.
 🚀 How to Run
 
 1. Clone the repository:
-
-git clone https://github.com/moe-stack24x/DVLD-Driving-License-Management-System.git
+   
+   git clone https://github.com/moe-stack24x/DVLD-Driving-License-Management-System.git
 
 2. Open the solution file (".sln") using Visual Studio 2022.
 
-3. Configure the SQL Server connection string in the application settings.
+3. Open SQL Server Management Studio (SSMS).
 
-4. Create and configure the database using the provided SQL scripts (if included in the repository).
+4. Locate the database scripts in the "DataBase" folder and use the full database script to set up the database.
 
-5. Build and run the project.
+5. Configure the SQL Server connection string in the application settings according to your SQL Server instance.
+
+6. Build and run the project using Visual Studio 2022.
 
 ---
 
@@ -110,4 +127,10 @@ git clone https://github.com/moe-stack24x/DVLD-Driving-License-Management-System
 
 Mohamed Idris
 
-- GitHub: https://github.com/moe-stack24x
+- GitHub: "moe-stack24x" (https://github.com/moe-stack24x)
+
+---
+
+<p align="center">
+  Developed with dedication and a passion for software engineering ❤️
+</p>
